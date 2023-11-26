@@ -9,13 +9,17 @@
     "cabin_6",
     "cabin_7",
     "cabin_lapin",
+    "cabin_prepper",
     "bandit_cabin",
     "cabin_isherwood",
     "cabin_lake",
     "lake_cabin_boathouse",
     "cabin_strange",
     "cabin_strange_b",
-    "riverside_dwelling"
+    "riverside_dwelling",
+    "riverside_dwelling1",
+    "riverside_dwelling2",
+    "riverside_dwelling3"
   ],
   "fg": [ "cabin_faceN", "cabin_faceW", "cabin_faceS", "cabin_faceE" ],
   "bg": "field",
@@ -33,7 +37,11 @@
     "cabin_strange_roof",
     "cabin_roof_lapin",
     "cabin_lake_roof",
-    "lake_cabin_boathouse_roof"
+    "lake_cabin_boathouse_roof",
+    "riverside_dwelling_roof",
+    "riverside_dwelling1_roof",
+    "riverside_dwelling2_roof",
+    "riverside_dwelling3_roof"
   ],
   "fg": [ "cabin_faceN", "cabin_faceW", "cabin_faceS", "cabin_faceE" ],
   "bg": "open_air",
