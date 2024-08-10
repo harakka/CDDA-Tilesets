@@ -1,0 +1,14 @@
+# docker run -v .:/usr/src build-tilesets python tools/compose.py gfx/UltimateCataclysm
+
+FROM python:3.11-slim
+
+WORKDIR /usr/src
+RUN apt-get update && apt-get install -y \
+    nix-bin libvips42 git \
+    && rm -rf /var/lib/apt/lists/*
+RUN pip install --no-cache-dir pyvips
+# COPY "gfx" "/usr/src/gfx"
+# COPY "tools" "/usr/src/tools"
+# CMD [ "python", "tools/compose.py", "--use-all", "gfx/UltimateCataclysm", "result" ]
+# RUN nix --extra-experimental-features "nix-command flakes" build
+# CMD ["nix", "build"]
